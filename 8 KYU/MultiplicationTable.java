@@ -1,6 +1,6 @@
 public class MultiplicationTable {
 	public static String multiTable(int num) {
-		// This program is written by zaydam1000000, original problem at https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
+		// Original problem at https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
       
 		// Declaring variables
 		String returned = "";
