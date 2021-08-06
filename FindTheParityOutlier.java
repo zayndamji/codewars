@@ -1,3 +1,5 @@
+// 6 KYU
+
 public class FindOutlier {
 	static int find(int[] integers) {
 		// Original problem at https://www.codewars.com/kata/5526fc09a1bbd946250002dc

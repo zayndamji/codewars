@@ -1,3 +1,5 @@
+// 6 KYU
+
 public class FindMissingLetter {
 	public static char findMissingLetter(char[] array) {
 		// Original problem: https://www.codewars.com/kata/5839edaa6754d6fec10000a2

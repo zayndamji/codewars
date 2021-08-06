@@ -1,3 +1,5 @@
+// 6 KYU
+
 public class CreatePhoneNumber {
 	public static String createPhoneNumber(int[] numbers) {
 		// Original problem at https://www.codewars.com/kata/525f50e3b73515a6db000b83

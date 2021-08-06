@@ -1,3 +1,5 @@
+// 8 KYU
+
 public class MultiplicationTable {
 	public static String multiTable(int num) {
 		// Original problem at https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
