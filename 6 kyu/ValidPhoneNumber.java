@@ -1,9 +1,8 @@
+// https://www.codewars.com/kata/525f47c79f2f25a4db000025
 // 6 KYU
 
 public class ValidPhoneNumber {
-	public static boolean validPhoneNumber(String phoneNumber) {
-		// Original problem at https://www.codewars.com/kata/525f47c79f2f25a4db000025
-    
+  public static boolean validPhoneNumber(String phoneNumber) {
 		// Simple check for length
 		if (phoneNumber.length() != 14) return false;
 

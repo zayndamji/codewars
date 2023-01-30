@@ -1,9 +1,8 @@
+// https://www.codewars.com/kata/5526fc09a1bbd946250002dc
 // 6 KYU
 
-public class FindOutlier {
+public class FindParityOutlier {
 	static int find(int[] integers) {
-		// Original problem at https://www.codewars.com/kata/5526fc09a1bbd946250002dc
-    
 		// Declaring integers
 		int odd = 0, even = 0;
 		int[] oddArr = new int[integers.length], evenArr = new int[integers.length];

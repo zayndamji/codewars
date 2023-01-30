@@ -1,9 +1,8 @@
+// https://www.codewars.com/kata/515e271a311df0350d00000f
 // 8 KYU
 
 public class SumOfSquares {
 	public static int squareSum(int[] n) { 
-		// Original problem at https://www.codewars.com/kata/515e271a311df0350d00000f
-    
 		// Declaring integer
 		int count = 0;
     

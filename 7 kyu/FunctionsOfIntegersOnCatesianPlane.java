@@ -1,9 +1,9 @@
+// https://www.codewars.com/kata/559e3224324a2b6e66000046
 // 7 KYU
 
 import java.math.BigInteger;
 
 public class FunctionsOfIntegersOnCatesianPlane {
-
 	public static BigInteger sumin(int n) {
 		long val = 0;
 		for (int a = 1; a <= n; a++) {

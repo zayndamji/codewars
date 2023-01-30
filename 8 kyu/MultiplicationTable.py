@@ -1,8 +1,7 @@
+# https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
 # 8 KYU
 
 def multi_table(number):
-    # This program is written by zaydam1000000, original problem at https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
-    
     # Declaring what is going to be returned
     returned = ""
     
