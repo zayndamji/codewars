@@ -3,30 +3,30 @@
 
 public class JadenCasingStrings {
 	public String toJadenCase(String phrase) {
-    // Check if it is null
-    if (phrase == null || phrase.length() == 0) return null;
+        // Check if it is null
+        if (phrase == null || phrase.length() == 0) return null;
 
-    // Trim all the spaces at the beginning and end
-    phrase.trim();
+        // Trim all the spaces at the beginning and end
+        phrase.trim();
 
-    // Making an array to split and declaring all the other variables
-    String arr[] = phrase.split(" "), newphrase = "";
-    char first, second;
-    int firstchar;
+        // Making an array to split and declaring all the other variables
+        String arr[] = phrase.split(" "), newphrase = "";
+        char first, second;
+        int firstchar;
 
-    // For loop to make the first character of each word capitalized
-    for (int num = 0; num < arr.length; num++) {
-        first = arr[num].charAt(0);
-        firstchar = (int) first - 32;
-        second = (char) firstchar;
-        arr[num] = arr[num].replace(first, second);
-        newphrase = newphrase + arr[num] + " ";
-    }
+        // For loop to make the first character of each word capitalized
+        for (int num = 0; num < arr.length; num++) {
+            first = arr[num].charAt(0);
+            firstchar = (int) first - 32;
+            second = (char) firstchar;
+            arr[num] = arr[num].replace(first, second);
+            newphrase = newphrase + arr[num] + " ";
+        }
 
-    // Trimming the last space
-    newphrase = newphrase.trim();
+        // Trimming the last space
+        newphrase = newphrase.trim();
 
-    // Returning the phrase
+        // Returning the phrase
 		return newphrase;
 	}
 }
